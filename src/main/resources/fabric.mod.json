@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "waygui",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "FabricWaypoints PolyMC GUI addon",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "olivermakescode"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "http://olivermakesco.de/",
   },
 
   "license": "CC0-1.0",
@@ -19,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "olivermakesco.de.waypoint.gui.ExampleMod"
     ]
   },
   "mixins": [
