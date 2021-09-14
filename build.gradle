@@ -17,6 +17,7 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	maven { url 'https://maven.nucleoid.xyz' }
+	maven { url 'https://jitpack.io' }
 	mavenLocal()
 }
 
@@ -33,6 +34,7 @@ dependencies {
 	// You may need to force-disable transitiveness on them.
 	modImplementation include("eu.pb4:sgui:1.0.0-rc4+1.17.1")
 	modImplementation "wraith.waystones:FabricWaystones:2.1.0"
+	modImplementation "com.github.TheEpicBlock:PolyMc:3.3.0"
 }
 
 processResources {

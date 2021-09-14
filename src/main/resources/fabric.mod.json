@@ -9,7 +9,7 @@
     "olivermakescode"
   ],
   "contact": {
-    "homepage": "http://olivermakesco.de/",
+    "homepage": "http://olivermakesco.de/"
   },
 
   "license": "CC0-1.0",
@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "olivermakesco.de.waypoint.gui.ExampleMod"
+    ],
+    "polymc": [
+      "olivermakesco.de.waypoint.gui.polymc.RegisterPoly"
     ]
   },
   "mixins": [

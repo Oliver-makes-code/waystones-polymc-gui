@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "olivermakesco.de.waypoint.gui",
+  "package": "olivermakesco.de.waypoint.gui.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-  ],
-  "client": [
-    "mixin.ExampleMixin"
+    "AbyssWatcherMixin",
+    "PocketWormholeMixin",
+    "WaystoneGuiMixin"
   ],
   "injectors": {
     "defaultRequire": 1
