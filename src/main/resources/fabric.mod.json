@@ -18,14 +18,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "olivermakesco.de.waypoint.gui.ExampleMod"
+      "olivermakesco.de.waypoint.gui.Entrypoint"
     ],
     "polymc": [
       "olivermakesco.de.waypoint.gui.polymc.RegisterPoly"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "waygui.mixins.json"
   ],
 
   "depends": {
